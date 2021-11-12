@@ -14,6 +14,7 @@ public class AlertPopup {
 		driver.manage().timeouts().implicitlyWait(10000,TimeUnit.MILLISECONDS);
 		driver.get("http://demo.guru99.com/test/delete_customer.php");
 		driver.findElement(By.name("cusid")).sendKeys("53920");
+		System.out.println("Navigate to the URL");
 		driver.findElement(By.name("submit")).click();
 		Alert alert = driver.switchTo().alert();
 		System.out.println(alert.getText());
