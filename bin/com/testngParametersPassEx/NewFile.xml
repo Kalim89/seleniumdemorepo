@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="Parameter testing">
+<test name="yahoo app test">
+<parameter name="firstname" value="Kalim"/>
+<parameter name="lastname" value="Khan"/>
+<classes>
+  <class name="com.testngParametersPassEx.ParameterPassEx"/>
+</classes>
+</test>
+</suite>
